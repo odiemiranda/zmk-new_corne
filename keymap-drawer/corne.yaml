@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: QWERTY, h: toggle}
   - {t: FUNCTION, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   FUNCTION:

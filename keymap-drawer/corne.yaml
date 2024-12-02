@@ -41,7 +41,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - SYMBOL
+  - FUNCTION
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -96,9 +96,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: FN, h: toggle}
+  - {t: FUNCTION, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  FN:
+  FUNCTION:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -147,7 +147,7 @@ layers:
   - {t: NUMBER, h: toggle}
   - {t: FN, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  OTHERS:
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2

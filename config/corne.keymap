@@ -24,28 +24,28 @@
             compatible = "zmk,behavior-tap-dance";
             label = "COPY";
             #binding-cells = <0>;
-            bindings = <&kp C>, <&kp K_COPY>;
+            bindings = <&kp C>, <&kp LC(C)>;
         };
 
         paste: paste {
             compatible = "zmk,behavior-tap-dance";
             label = "PASTE";
             #binding-cells = <0>;
-            bindings = <&kp V>, <&kp K_PASTE>;
+            bindings = <&kp V>, <&kp LC(V)>;
         };
 
         undo: undo {
             compatible = "zmk,behavior-tap-dance";
             label = "UNDO";
             #binding-cells = <0>;
-            bindings = <&kp Z>, <&kp K_UNDO>;
+            bindings = <&kp Z>, <&kp LC(Z)>;
         };
 
         xcopy: xcopy {
             compatible = "zmk,behavior-tap-dance";
             label = "XCOPY";
             #binding-cells = <0>;
-            bindings = <&kp X>, <&kp K_CUT>;
+            bindings = <&kp X>, <&kp LC(X)>;
         };
 
         mmv {

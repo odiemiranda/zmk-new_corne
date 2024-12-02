@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,7 +20,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -44,11 +44,11 @@ layers:
   - SYMBOL
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NUMBER, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -96,9 +96,9 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: SYMBOL, h: toggle}
+  - {t: FN, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  SYMBOL:
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -147,7 +147,7 @@ layers:
   - {t: NUMBER, h: toggle}
   - {t: FN, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  FN:
+  OTHERS:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2

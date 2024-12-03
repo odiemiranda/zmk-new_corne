@@ -114,7 +114,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
@@ -156,7 +156,7 @@
             >;
 
             label = "FUNCTION";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {

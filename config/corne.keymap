@@ -86,9 +86,10 @@
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+        bindings = <&msc MOVE_DOWN>, <&msc MOVE_UP>;
 
         tap-ms = <30>;
+        label = "SCROLL_ENCODER";
     };
 
     keymap {
@@ -134,7 +135,7 @@
             >;
 
             label = "NUMBER";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         raise_layer {

@@ -44,8 +44,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - FUNCTION
   - NUMBER
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NUMBER, h: toggle}
   NUMBER:
@@ -93,8 +93,8 @@ layers:
   - {t: \, s: '|'}
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: QWERTY, h: toggle}
   - {t: FUNCTION, h: toggle}
   FUNCTION:

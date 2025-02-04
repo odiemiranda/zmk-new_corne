@@ -27,11 +27,11 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '&shift_caps'
-  - '&undo'
-  - '&xcopy'
-  - '&copy'
-  - '&paste'
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
   - B
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - N
@@ -43,9 +43,9 @@ layers:
   - $$mdi:volume-off$$
   - FUNCTION
   - NUMBER
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NUMBER, h: toggle}
   - $$mdi:mouse-left-click-outline$$
@@ -92,48 +92,48 @@ layers:
   - $$mdi:volume-off$$
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
   - {t: FUNCTION, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   FUNCTION:
-  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
+  - F6
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F6
   - F7
-  - F3
-  - F4
-  - F5
+  - F8
+  - F9
+  - F10
+  - F9
+  - F12
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+ PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
+  - Ctl+PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - Ctl+Gui+ $$mdi:arrow-left-bold$$
-  - Ctl+Gui+ $$mdi:arrow-right-bold$$
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -141,9 +141,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: QWERTY, h: toggle, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NUMBER, h: toggle}
   - {t: CONTROL, h: toggle}
   - $$mdi:mouse-left-click-outline$$

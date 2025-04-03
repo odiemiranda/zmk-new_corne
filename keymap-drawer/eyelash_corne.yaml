@@ -248,5 +248,7 @@ layers:
 combos:
 - p: [15, 14]
   k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
 - p: [26, 25]
   k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
